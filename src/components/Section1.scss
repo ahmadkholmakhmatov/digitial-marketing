@@ -1,0 +1,103 @@
+.section-1 {
+    background: #E43767;
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+    .title {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        /* 117.647% */
+        width: 380px;
+        margin-bottom: 56px;
+    }
+
+    .mini-container {
+        border-radius: 16px;
+        padding: 24px;
+        border: 2px solid rgba(0, 0, 0, 0.04);
+        background: #FFF;
+        box-shadow: 0px 28px 20px 0px rgba(0, 0, 0, 0.08);
+        margin-bottom: 2rem;
+
+        .circle {
+            height: 44px;
+            width: 44px;
+            align-items: center;
+            background: #fff0f4;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            margin-right: 16px;
+        }
+
+        .title-inner {
+            color: #E43767;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 20px;
+            /* 125% */
+        }
+
+        .body-text {
+            color: #1E1E1E;
+            font-family: Inter;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 16px;
+            /* 160% */
+        }
+    }
+
+    .step-2 {
+        .circle {
+            height: 44px;
+            width: 44px;
+            align-items: center;
+            background: #fff0f4;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            margin-right: 16px;
+        }
+
+        .body-text {
+            color: #FFF;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 20px;
+            /* 125% */
+        }
+    }
+    .step-3 {
+        margin-top: 2rem;
+        .circle {
+            height: 44px;
+            width: 44px;
+            align-items: center;
+            background: #fff0f4;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            margin-right: 16px;
+        }
+
+        .body-text {
+            color: #FFF;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 20px;
+            /* 125% */
+        }
+    }
+}

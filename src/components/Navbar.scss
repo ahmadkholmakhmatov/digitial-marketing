@@ -1,0 +1,13 @@
+#navbar {
+    .container-fluid {
+        background-color: #c8c202;
+        color: white;
+        .navbar-brand {
+            img {
+                content: fill;
+                width: 148px;
+                height: 47px;
+            }
+        }
+    }
+}

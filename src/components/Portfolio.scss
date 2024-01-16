@@ -1,0 +1,97 @@
+.portfolio {
+    padding: 80px 240px;
+    background: #E43767;
+
+    .row1 {
+        margin-bottom: 64px;
+
+        .title {
+            color: #FFF;
+            text-align: center;
+            font-family: Inter;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 40px;
+            /* 111.111% */
+        }
+
+        .body {
+            color: #FFF;
+            text-align: center;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 20px;
+            /* 125% */
+            padding: 5px 100px;
+        }
+    }
+
+    .infos {
+        margin-bottom: 64px;
+
+        .body {
+            span {
+                margin-right: 9px;
+            }
+
+            color: #FFF;
+            font-family: Inter;
+            font-size: 36.641px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-align: center;
+            margin-bottom: 4px;
+        }
+
+        .title {
+            color: #FFF;
+
+            text-align: center;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 20px;
+            /* 125% */
+        }
+
+    }
+
+    .portfolios {
+        .card {
+            border-radius: 16px;
+            background: #FFF;
+            box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.04);
+            overflow: hidden;
+
+            .card-body {
+                padding:9px 20px 24px 20px;
+                .card-info {
+                    color: #E43767;
+                    font-family: Inter;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 14px;
+                    /* 116.667% */
+                    margin-bottom: 0.5rem;
+                }
+
+                .card-text {
+                    color: #1E1E1E;
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 18px;
+                    /* 112.5% */
+                }
+            }
+
+        }
+    }
+}
