@@ -3,7 +3,7 @@ import "./Section1.scss";
 class Secton1 extends Component {
   render() {
     return (
-      <div className="section-1">
+      <div className="section-1" id="about">
         <div className="container">
           <div className="row">
             <div className="col-md-6 text-center">

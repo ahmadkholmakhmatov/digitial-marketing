@@ -1,6 +1,11 @@
 .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: #1E1E1E;
     margin-bottom: 6px;
+    z-index: 100;
+    box-shadow: 1px 2px 1px white;
 
     .desktop-navbar {
         .content {

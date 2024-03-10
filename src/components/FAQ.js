@@ -35,7 +35,7 @@ class FAQ extends Component {
   ];
   render() {
     return (
-      <div className="FAQ">
+      <div className="FAQ" id="faq">
         <div className="container">
           <h1 className="question">Часто задаваемые вопросы (FAQ)</h1>
           <div className="row">

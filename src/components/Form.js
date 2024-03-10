@@ -3,7 +3,7 @@ import "./Form.scss"
 class Form extends Component {
   render() {
     return (
-      <div className="Form">
+      <div className="Form" id="contact">
         <div className="container">
           <div className="row">
             <div className="col-xl-6">

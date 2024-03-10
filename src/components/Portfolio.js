@@ -34,7 +34,7 @@ class Portfolio extends Component {
   render() {
     const { portfolio } = this.state;
     return (
-      <div className="portfolio">
+      <div className="portfolio" id="portfolio">
         <div className="container">
           <div className="row row1">
             <div className="col-md-12 text-center">
