@@ -1,33 +1,38 @@
 import React, { Component } from "react";
 import "./Service.scss";
+import BoxList from "./Boxlist";
 class Service extends Component {
-  service = [
-    {
-      id: 1,
-      image: "/images/service.png",
-      title: "СММ (социальные медиа маркетинг)",
-      body: "Продвижение и управление вашим брендом в социальных сетях, создание контента, анализ эффективности кампаний.",
-    },
-    {
-      id: 2,
-      image: "/images/service.png",
-      title: "Платные рекламы",
-      body: "Размещение рекламных материалов на платформах, таких как Facebook Ads, Google Ads, Яндекс.Директ, социальные сети, для привлечения целевой аудитории.",
-    },
-    {
-      id: 3,
-      image: "/images/service.png",
-      title: "Брендинг",
-      body: "Разработка уникального стиля бренда, логотипа, фирменного стиля, а также стратегии его продвижения на рынке.",
-    },
-    {
-      id: 4,
-      image: "/images/service.png",
-      title: "Веб-сайт",
-      body: "Создание и разработка сайтов с учетом индивидуальных потребностей клиента, оптимизация для поисковых систем, поддержка и обновление контента.",
-    },
-  ];
+  state = {
+    service: [
+      {
+        id: 1,
+        image: "/images/service.png",
+        title: "СММ (социальные медиа маркетинг)",
+        text: "Продвижение и управление вашим брендом в социальных сетях, создание контента, анализ эффективности кампаний.",
+      },
+      {
+        id: 2,
+        image: "/images/service.png",
+        title: "Платные рекламы",
+        text: "Размещение рекламных материалов на платформах, таких как Facebook Ads, Google Ads, Яндекс.Директ, социальные сети, для привлечения целевой аудитории.",
+      },
+      {
+        id: 3,
+        image: "/images/service.png",
+        title: "Брендинг",
+        text: "Разработка уникального стиля бренда, логотипа, фирменного стиля, а также стратегии его продвижения на рынке.",
+      },
+      {
+        id: 4,
+        image: "/images/service.png",
+        title: "Веб-сайт",
+        text: "Создание и разработка сайтов с учетом индивидуальных потребностей клиента, оптимизация для поисковых систем, поддержка и обновление контента.",
+      },
+    ],
+  };
+
   render() {
+    const { service } = this.state;
     return (
       <div className="service">
         <div className="container">
@@ -43,15 +48,9 @@ class Service extends Component {
             </div>
           </div>
           <div className="row services">
-            {this.service.map((item, index) => (
-              <div className="col-md-3">
-                <div className="card h-100" key={index}>
-                  <img src={item.image} alt="" />
-                  <div className="card-body">
-                    <div className="card-info">{item.title}</div>
-                    <div className="card-text">{item.body}</div>
-                  </div>
-                </div>
+            {service.map((item, index) => (
+              <div className="col-md-3" key={index}>
+                <BoxList item={item}/>
               </div>
             ))}
           </div>

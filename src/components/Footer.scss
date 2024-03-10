@@ -1,0 +1,176 @@
+.footer {
+    background-color: #E43767;
+    color: white;
+    padding: 90px 0 16px;
+
+    .row {
+        margin-bottom: 124px;
+
+        .first-col {
+            h3 {
+                font-family: Inter;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0em;
+                text-align: left;
+                margin-bottom: 16px;
+            }
+
+            p {
+                font-family: Inter;
+                font-size: 12px;
+                font-weight: 500;
+                line-height: 16px;
+                letter-spacing: 0em;
+                text-align: left;
+                margin-bottom: 20px;
+            }
+
+            .socials {
+                display: flex;
+                gap: 12px;
+
+                .social {
+                    text-align: center;
+                    background-color: white;
+                    height: 24px;
+                    width: 24px;
+                    border-radius: 50px;
+
+                    .bi::before {
+                        color: #E43767;
+                        font-size: 14px;
+                    }
+                }
+
+                .social-white {
+                    text-align: center;
+                    background-color: white;
+                    height: 24px;
+                    width: 24px;
+                    padding-right: 1px;
+                    border-radius: 50%;
+                    overflow: hidden;
+
+                    .bi::before {
+                        background: #E43767;
+
+                        color: white;
+                        font-size: 24px;
+                    }
+                }
+
+                .facebook {
+                    .bi::before {
+                        background: #E43767;
+                        color: white;
+                        font-size: 24px;
+                    }
+                }
+
+            }
+        }
+
+        .title {
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 20px;
+            letter-spacing: 0em;
+            text-align: left;
+            margin-bottom: 24px;
+        }
+
+        ul {
+            padding: 0;
+
+            li {
+                font-family: Inter;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 14px;
+                letter-spacing: 0em;
+                text-align: left;
+
+                list-style: none;
+                margin-bottom: 12px;
+            }
+        }
+
+        .email {
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 19px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+
+        .last-col {
+
+
+            .insight {
+                font-family: Inter;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 14px;
+                letter-spacing: 0em;
+                text-align: left;
+                margin-bottom: 24px;
+            }
+
+            .input {
+                position: relative;
+
+                input {
+                    background-color: #FFD6E2;
+                    border: none;
+                    padding: 8px 0 10px 16px;
+                    border-radius: 50px;
+                    display: inline-block;
+                    width: 100%;
+                }
+                input::focus{
+                    outline: #e43767 !important;;
+                }
+
+                input::placeholder {
+                    font-family: Inter;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 14px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #6D6D6D;
+                }
+
+                .send {
+                    position: absolute;
+                    right: 5%;
+                    top: 30%;
+
+                    .bi::before {
+                        color: black;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .line {
+        border-bottom: 1px solid white;
+        margin-bottom: 16px;
+    }
+
+    .bottom-text {
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+}
